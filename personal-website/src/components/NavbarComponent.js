@@ -46,10 +46,10 @@ export const NavbarComponent = () => {
                     <span className='navbar-text'>
                         <div className='social-icons'>
                             <a href="https://github.com/prateek-balani/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="2x" />
+                               <FontAwesomeIcon icon={faGithub} style={{color: "#B197FC",}} />
                             </a>
                             <a href="https://www.linkedin.com/in/prateek-balani/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                               <FontAwesomeIcon icon={faLinkedin} style={{color: "#B197FC",}} />
                             </a>
                         </div>
                         <button className='contact-me' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
