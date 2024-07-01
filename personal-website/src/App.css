@@ -374,3 +374,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 5px;
     font-size: 14px;
 }
+/* framework.js */
+.marquee-img{
+  width:7vh;
+  height: 10vh;
+  margin: 1em;
+}
