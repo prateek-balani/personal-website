@@ -11,22 +11,24 @@ const Home = () => {
     }, []);
     return (
         <>
-            
-                <div className='banner-container'>
-                    <div className="banner">
-                        <Typewriter
-                            options={{
-                                strings: ['Welcome', 'Welcome to my website'],
-                                autoStart: true,
-                                loop: true,
-                            }} />
-                    </div>
+            <div className='home-container'>
+                {/* <div className='banner-container'> */}
+                <div className="banner">
+                    <Typewriter
+                        options={{
+                            strings: ['Welcome', 'Welcome to my website'],
+                            autoStart: true,
+                            loop: true,
+                        }} />
                 </div>
+                {/* </div> */}
                 <div className='website-vistors'>
 
                     <h2>This site has had a total of <span><CountUp duration={5} className="counter" end={count} /> </span>visitors</h2>
                 </div>
-         
+            </div>
+
+
 
 
 

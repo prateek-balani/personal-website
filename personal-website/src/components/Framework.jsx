@@ -28,12 +28,12 @@ const Framework = () => {
         
             <h1>Frameworks</h1>
             <div >
-            <h3>Over the course of my academic career I have 
+            <h5>Over the course of my academic career I have 
                 come across various frameworks and languages. Some
-                 of which that I am proficient at are listed below</h3>
+                 of which that I am proficient at are listed below</h5>
 
                  </div>
-                 <div className='banner-container'>
+                 <div className='framework-container'>
 
             <Marquee autoFill pauseOnHover>
                 <img src={cSvg} alt='c svg' className='marquee-img'/>
