@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Framework from "./components/Framework.jsx"
 import GlitchEffect from './components/GlitchEffect.jsx';
+import ContactMe from './components/ContactMe.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css' ;
 
 
@@ -25,6 +26,8 @@ function App() {
       <Framework/>
       
       <Projects/>
+      
+      <ContactMe/>
       </div>
       
       

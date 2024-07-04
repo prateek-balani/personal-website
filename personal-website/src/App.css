@@ -378,22 +378,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 1em;
 }
 
+.Projects{
+  display:flexbox;
+  justify-content: center; 
+  align-items: center;  
+  margin: 2em 0em 2em 0em;  
+}
+
 
 
 
 .project-container {
- margin-top: 5em;
  
- margin-left: 12em;
+ 
+ 
   display: grid;
   
+  justify-items: center; 
   align-items: center;
-  justify-content: center;
 
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(2, 0.5fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  /* flex-wrap: wrap; */
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-column-gap: 0px;
+  grid-row-gap: 0px; */
 
 
 
@@ -418,7 +427,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
 
   padding: 1em;
-  margin: 2em 0 0 2em;
+  margin: 2em 0 2em 0em;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 1rem;
   border: solid rgba(0, 0, 0, 0.2);
@@ -427,8 +436,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(1.5px);
   position: relative;
+  transition: transform 0.2s ease;
   
 
+
+}
+.project:hover{
+   transform: scale(1.1);
+   
 
 }
 
@@ -445,11 +460,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: start;
   margin: 1em;
   right: 1em;
-
-  /* background: rgba(0, 0, 0, 0.5); */
-
-  /* padding: 5px 10px; */
-
 
 }
 
@@ -468,3 +478,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 5em;
   right: 3em;
 }
+
+.contact-container {
+    text-align: center;
+    padding: 2em;
+    margin: 2em 0 2em 0;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0 2em 0;
+
+}
+
+#contact-button {
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 1rem;
+;
+   border: solid rgba(0, 0, 0, 0.2);
+   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+   backdrop-filter: blur(1.5px);
+    cursor: pointer;
+    padding: 0.5em;
+    transition: transform 0.2s ease-in-out;
+}
+
+#contact-button img{
+  width: 5em ;
+  height: 2em;
+}
+
+#contact-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+

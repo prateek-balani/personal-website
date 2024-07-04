@@ -9,7 +9,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 const Projects = () => {
     return (
         <>
-            <div id='Projects'>
+            <div className='Projects'>
                 <h1> Projects</h1>
 
                 <div className='project-container'>
