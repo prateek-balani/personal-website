@@ -2,6 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const About = () => {
+    const disableRightClick = (event) => {
+        event.preventDefault();
+    };
     return (
         <>
 
@@ -10,11 +13,13 @@ const About = () => {
                 <div id='About'>
                     <h1> About Me</h1>
 
+                     <div className='profile-img' onContextMenu={disableRightClick}>
+                          <img src={require('../assets/images/prateek.jpeg')} alt='An image of Prateek Balani' />
+                        </div>
+
 
                     <div className='profile-container'>
-                        <div className='profile-img'>
-                            <a href={require('../assets/images/bg-1.jpg')}><img src={require('../assets/images/bg-1.jpg')} alt='An image of Prateek Balani' /></a>
-                        </div>
+                       
                         <div className='profile-text'>
                             <h3>Lorem Ipsum is simply dummy text of the printing and
                                 typesetting industry. Lorem Ipsum has been the industry's standard dummy

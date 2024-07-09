@@ -49,6 +49,14 @@ h5 {
   padding: 0;
   line-height: normal;
 }
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 /* Navbar Css */
 nav.navbar {
@@ -305,9 +313,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   display: inline-flex;
   padding: 100px 100px 100px 100px;
-
-
-
   align-items: center;
   justify-content: center;
   font-size: 4rem;
@@ -322,42 +327,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 94vh;
+  height: 150vh;
 }
 
 .profile-container {
-  width: 80%;
+  float: bottom;
   background: rgba(255, 255, 255, 0.2);
-
-
+  margin: 2em 2em 2em 2em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 1em 2em;
-  margin: 10em;
 }
 
-.profile-text {
-  margin-left: 20px;
-}
+
 
 .profile-img {
-  float: left;
-  margin-right: 20px;
-  margin-left: 20px;
-  width: 250px;
+  display: inline-flex;
+  float: top;
+  margin: 5em 0em 5em 0em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  padding: 2em 2em 2em 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25vw;
+  height: 25vw;
 }
 
 .profile-img img {
   width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  object-fit: cover;
 }
 
 
 /* for containers that require scrolling */
-.margin-down {
+/* .margin-down {
   margin-top: 1vw;
   align-items: flex-start;
   margin-bottom: 5em;
-}
+} */
 
 .column-container {
   display: flex;
@@ -565,7 +574,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
   padding: 0.2em;
   transition: transform 0.2s ease-in-out;
-  width:25%;
+  width: 25%;
 
 }
 
