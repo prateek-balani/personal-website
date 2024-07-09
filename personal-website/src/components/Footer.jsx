@@ -8,13 +8,14 @@ const Footer = () => {
    return (
         <div className="footer-container">
             <div className="footer-text">
-            <span style={{ fontFamily: "sans-serif" }}>© 2024 Prateek Balani All Rights Reserved</span>
+            <h7 style={{ fontFamily: "sans-serif" }}>© 2024 All Rights Reserved</h7>
+            <br/>
            
-            <span style={{ fontFamily: "sans-serif" }}>Made by Prateek Balani</span>
+            <h7 style={{ fontFamily: "sans-serif" }}>Made by Prateek Balani</h7>
             </div>
 
             <div className="contacts-footer">
-                <span style={{ fontFamily: "sans-serif" }}> Contact Me</span>
+                <h7 style={{ fontFamily: "sans-serif" }}> Contact Me</h7>
                 <ContactButtons redirectLink={redirectLink} className="contact-footer" />
             </div>
             
