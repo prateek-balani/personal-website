@@ -330,21 +330,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 150vh;
 }
 
-.profile-container {
+#About h2{
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+.profile-container, .work-container{
   float: bottom;
   background: rgba(255, 255, 255, 0.2);
-  margin: 2em 2em 2em 2em;
+  margin: 1em 2em 2em 2em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 1em 2em;
+  text-align: start;
 }
+.work-container{
+  
+}
+.profile-text a{
+ color:#fff;
+}
+.work-head a{
+   color:#fff;
+
+}
+.work-head{
+  margin-top: 0em;
+  margin-bottom: 2em;
+
+
+}
+.work-text{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.3em;
+}
+
 
 
 
 .profile-img {
   display: inline-flex;
   float: top;
-  margin: 5em 0em 5em 0em;
+  margin: 2em 0em 2em 0em;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10%;
   padding: 2em 2em 2em 2em;
@@ -485,8 +513,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .img-text {
   position: relative;
-  top: 5em;
-  right: 3em;
+  margin-top: 4em;
+  text-align: start;
 }
 
 .contact-container {
@@ -584,3 +612,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Stack text vertically */
   align-items: center;
 }
+
+

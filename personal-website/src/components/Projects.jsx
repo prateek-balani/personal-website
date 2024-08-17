@@ -21,6 +21,9 @@ const Projects = () => {
                             </div>
                         </a>
                         <div className='img-text'>
+                            Conducted an analysis of Spotify’s 
+                            data on the music listening habits of Generation Z 
+                            and Generation X, discovering intriguing differences and patterns
 
                         </div>
 
@@ -34,7 +37,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <div className='img-text'>
-                            A new social media
+                            Developed Pondr, a discussion forum website inspired by Reddit and HackerNews, in a 3-person group project for a Web Development class
 
                         </div>
 
@@ -50,7 +53,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <div className='img-text'>
-                            Events made easy
+                            Developed Tixx, a web application for event organization and attendance, in a 5-person team for a Software Engineering class using the Django framework
 
                         </div>
 
@@ -67,7 +70,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <div className='img-text'>
-                            Exotic frogs
+                            Developed a web store for selling frogs in a 2-person group project for a Databases (DBMS) class
 
                         </div>
 

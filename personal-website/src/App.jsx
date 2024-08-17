@@ -8,6 +8,7 @@ import Framework from "./components/Framework.jsx"
 import GlitchEffect from './components/GlitchEffect.jsx';
 import ContactMe from './components/ContactMe.jsx';
 import Footer from './components/Footer.jsx';
+import WorkExperience from './components/WorkExperience.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -23,6 +24,8 @@ function App() {
         <Home />
 
         <About />
+
+        <WorkExperience/>
 
         <Framework />
 
