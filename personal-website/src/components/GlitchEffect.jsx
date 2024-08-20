@@ -39,8 +39,8 @@ const GlitchEffect = ({children}) => {
                     backgroundImage: `url(${currentGif})`,
                     backgroundSize: 'cover',
                     zIndex: -1,
-                    pointerEvents: 'none', // Prevent the glitch effect from interfering with user interactions
-                    marginBottom: '10rem', // Add margin to the bottom
+                    pointerEvents: 'none', 
+                    marginBottom: '10rem', 
                 }} />
             )}
             <div style={{ position: 'relative', zIndex: 1 }}>

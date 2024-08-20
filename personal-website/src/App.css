@@ -631,11 +631,8 @@ img {
     font-size: 2.5rem;
     text-align: center;
     overflow: hidden;
-    /* Prevents overflow */
     word-break: break-word;
-    /* Breaks long words to prevent overflow */
     white-space: normal;
-    /* Ensures text wraps to next line */
   }
   .website-vistors{
     margin: 2em 3em 2em 3em;

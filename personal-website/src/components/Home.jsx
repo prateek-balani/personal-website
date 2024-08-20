@@ -18,7 +18,7 @@ const Home = () => {
 
             <div className='home-container'>
        
-                {/* <div className='banner-container'> */}
+         
                 <div className="banner">
                     <Typewriter
                         options={{
@@ -27,7 +27,7 @@ const Home = () => {
                             loop: true,
                         }} />
                 </div>
-                {/* </div> */}
+          
                 <div className='website-vistors'>
 
                     <h2>This site has had a total of <span><CountUp duration={5} className="counter" end={count} /> </span>visitors</h2>

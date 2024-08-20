@@ -1,6 +1,6 @@
-// import logo from './logo.svg';
+
 import './App.css';
-// import { NavbarComponent } from "./components/NavbarComponent.jsx";
+
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
@@ -18,10 +18,6 @@ function App() {
 
       <div className="App" style={{ position: 'relative' }}>
         <GlitchEffect >
-
-
-
-
           <Home />
           </GlitchEffect>
           <About />
