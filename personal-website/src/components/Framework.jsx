@@ -27,7 +27,7 @@ const Framework = () => {
         <>
             <div className='outer-framework-container'>
                 <h1>Frameworks</h1>
-                <div >
+                <div className='framework-text' >
                     <h5>Over the course of my academic career I have
                         come across various frameworks and languages. Some
                         of which that I am proficient at are listed below</h5>
