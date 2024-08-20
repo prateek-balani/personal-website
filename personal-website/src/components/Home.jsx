@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import CountUp from "react-countup";
+import GlitchEffect from '../components/GlitchEffect.jsx';
 
 const Home = () => {
     const [count, setCount] = useState(0);
@@ -11,12 +12,17 @@ const Home = () => {
     }, []);
     return (
         <>
+      
+        
+
+
             <div className='home-container'>
+       
                 {/* <div className='banner-container'> */}
                 <div className="banner">
                     <Typewriter
                         options={{
-                            strings: ['Welcome', 'Welcome to my website'],
+                            strings: ['WELCOME', 'WELCOME TO MY WEBSITE'],
                             autoStart: true,
                             loop: true,
                         }} />
@@ -26,13 +32,16 @@ const Home = () => {
 
                     <h2>This site has had a total of <span><CountUp duration={5} className="counter" end={count} /> </span>visitors</h2>
                 </div>
+              
             </div>
+   
+    
+
+           
 
 
 
-
-
-
+          
 
 
 

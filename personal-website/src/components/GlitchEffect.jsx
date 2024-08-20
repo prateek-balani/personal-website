@@ -6,9 +6,9 @@ import gif3 from '../assets/images/glitch-2.gif';
 import gif4 from '../assets/images/glitch-3.gif';
 import gif5 from '../assets/images/glitch-4.gif';
 
-
 const gifs = [gif1, gif2, gif3, gif4, gif5];
-const GlitchEffect = () => {
+
+const GlitchEffect = ({children}) => {
     const [listGifs, setListGifs] = useState(false);
     const [currentGif, setCurrentGif] = useState(gifs[0]);
 
@@ -28,36 +28,25 @@ const GlitchEffect = () => {
     }, []);
 
     return (
-        <div
-            style={{
-                backgroundColor: '#3014fc',
-                width: '100%',
-                height: '100%',
-                position: 'fixed',
-                top: 0,
-                left: 0,
-                right: 0,
-                bottom: 0,
-                // zIndex: -1
-
-
-            }}
-        >
-
+        <div style={{ position: 'relative' }}>
             {listGifs && (
-                <img src={currentGif} alt="glitch" style={{
+                <div style={{
                     position: 'absolute',
                     top: 0,
                     left: 0,
                     width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                   
-                }}
-                />
+                    height: '100vh',
+                    backgroundImage: `url(${currentGif})`,
+                    backgroundSize: 'cover',
+                    zIndex: -1,
+                    pointerEvents: 'none', // Prevent the glitch effect from interfering with user interactions
+                    marginBottom: '10rem', // Add margin to the bottom
+                }} />
             )}
+            <div style={{ position: 'relative', zIndex: 1 }}>
+                {children}
+            </div>
         </div>
-
     );
 };
 
