@@ -641,16 +641,16 @@ img {
 
   /* About.css */
   .center-container {
-    margin-top: 60em;
-    margin-bottom: 5em;
+    margin-top: 75em;
+    margin-bottom: 0em;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 95vh;
   }
 
   .About {
-    margin: 65em 2em;
+    margin: 0em 2em;
 
   }
 
@@ -663,10 +663,11 @@ img {
 
   .profile-container {
     background: rgba(255, 255, 255, 0.2);
-    /* margin: 5em 2em 75em 2em; */
+    margin: 5em 0em 75em 0em;
     padding: 1em 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
+    line-height: 1.5;
 
   }
 
@@ -679,11 +680,13 @@ img {
   }
 
   .outer-work-container {
-    margin-top: 45em;
+    margin-top: 0em;
     margin-bottom: 5em;
   }
-  .work-text h3{
+  .work-text p{
     margin-bottom: 0.5em;
+    font-size: 0.8em;
+
 
 
   }
@@ -701,6 +704,9 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+  .profile-text h4{
+    font-size: 1.2em;
   }
 
   /* framework.js */
@@ -799,3 +805,8 @@ img {
     height: auto;
   }
 }
+
+#hide{
+display: none;
+                
+            }

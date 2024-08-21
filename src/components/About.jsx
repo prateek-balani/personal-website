@@ -6,8 +6,10 @@ const About = () => {
         event.preventDefault();
     };
     return (
-        <>
 
+        <>
+        
+        <div id='hide'>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>
 
             <div className='center-container'>
                 <div className='About'>
@@ -25,7 +27,9 @@ const About = () => {
                        
                         <div className='profile-text'>
                             <h4>I am currently in my fourth year pursuing a Bachelor of Science degree in Computer Science at 
-                                <a href='https://www.ubc.ca' target="_blank"> The University of British Columbia, Okanagan Campus</a>. My academic journey has fostered a deep 
+                                <a href='https://www.ubc.ca' target="_blank"> The University of British Columbia, Okanagan Campus</a>. 
+                                <br/><br/>
+                                My academic journey has fostered a deep 
                                 interest in software development and web development, particularly with a strong emphasis on backend 
                                 development.
                                  <br/> <br/>
