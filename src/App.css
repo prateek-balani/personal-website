@@ -605,6 +605,7 @@ img {
     margin-bottom: 10em;
     padding-top: 5em;
   }
+  
 
   .banner-container {
     display: flex;
@@ -629,11 +630,12 @@ img {
   .banner {
    
     padding: 2em;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     overflow: hidden;
     word-break: break-word;
     white-space: normal;
+
   }
   .website-vistors{
     margin: 2em 3em 2em 3em;
