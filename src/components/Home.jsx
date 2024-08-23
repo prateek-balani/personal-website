@@ -4,12 +4,8 @@ import CountUp from "react-countup";
 import GlitchEffect from '../components/GlitchEffect.jsx';
 
 const Home = () => {
-    const [count, setCount] = useState(0);
-    useEffect(() => {
-        const pageCount = parseInt(localStorage.getItem("count") || 0) + 1;
-        localStorage.setItem("count", pageCount);
-        setCount(pageCount);
-    }, []);
+
+
     return (
         <>
       
@@ -28,10 +24,7 @@ const Home = () => {
                         }} />
                 </div>
           
-                <div className='website-vistors'>
-
-                    <h2>This site has had a total of <span><CountUp duration={5} className="counter" end={count} /> </span>visitors</h2>
-                </div>
+              
               
             </div>
    
