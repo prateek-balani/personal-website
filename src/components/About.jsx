@@ -41,7 +41,7 @@ const About = () => {
                                  I am eager to continue expanding my knowledge and expertise in this field, and I look forward to contributing to innovative
                                  projects and connecting with like-minded professionals in the industry.
                                  <br/> <br/>
-                                 Download my resume <a href={require('../assets/Prateek_balani_resume_2024 copy.pdf')} target="_blank" download>here</a>
+                                 Download my resume <a href={require('../assets/PrateekBalani_resume_2024 copy.pdf')} target="_blank" download>here</a>
                                
                             </h4>
                         </div>
