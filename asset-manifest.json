@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d10c13e4.css",
-    "main.js": "/static/js/main.a25b2895.js",
+    "main.js": "/static/js/main.3ebf541b.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/tv-static.gif": "/static/media/tv-static.ec4f5cb76c0fe81f11ea.gif",
     "static/media/glitch-2.gif": "/static/media/glitch-2.04c6fd19c10870d70fef.gif",
@@ -9,7 +9,7 @@
     "static/media/glitch-4.gif": "/static/media/glitch-4.eda18657ef4b5f161db6.gif",
     "static/media/glitch-1.gif": "/static/media/glitch-1.43c1a043c674e3facf11.gif",
     "static/media/prateek.jpeg": "/static/media/prateek.57e19e24a106726282c7.jpeg",
-    "static/media/Prateek_balani_resume_2024 copy.pdf": "/static/media/Prateek_balani_resume_2024 copy.f712b065cb257bf62d47.pdf",
+    "static/media/PrateekBalani_resume_2024 copy.pdf": "/static/media/PrateekBalani_resume_2024 copy.f39f60be76684c8b2079.pdf",
     "static/media/php.svg": "/static/media/php.7cdf397b73f2f77a9a970c0e88015f3f.svg",
     "static/media/tixx-3.webp": "/static/media/tixx-3.55f02083a629679da302.webp",
     "static/media/KindlyRewind-BOon.ttf": "/static/media/KindlyRewind-BOon.fb037e772341074b3520.ttf",
@@ -36,11 +36,11 @@
     "static/media/pandas.svg": "/static/media/pandas.9bd98d45528b4db66a14dea560328cba.svg",
     "static/media/email.svg": "/static/media/email.4aea3fadcfd66083c2d347aa47928751.svg",
     "main.d10c13e4.css.map": "/static/css/main.d10c13e4.css.map",
-    "main.a25b2895.js.map": "/static/js/main.a25b2895.js.map",
+    "main.3ebf541b.js.map": "/static/js/main.3ebf541b.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d10c13e4.css",
-    "static/js/main.a25b2895.js"
+    "static/js/main.3ebf541b.js"
   ]
 }
