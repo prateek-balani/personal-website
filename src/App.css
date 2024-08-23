@@ -346,6 +346,7 @@ img {
   backdrop-filter: blur(1.5px);
   position: relative;
   transition: transform 0.2s ease;
+  flex-wrap: wrap;
 
 
 
@@ -383,9 +384,12 @@ img {
 
 .img-text {
   position: relative;
+  max-height: 20%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: start;
+  overflow:auto;
+  box-sizing: border-box;
 }
 
 .contact-container {
