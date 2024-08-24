@@ -11,7 +11,7 @@ const WorkExperience = () => {
                 <div className='work-container'>
 
                     <div className='work-head'>
-                        <h2>Software Developer Intern - <a href='https://systems-plus.com' target="_blank">Systems Plus Pvt Ltd</a></h2>
+                        <h2><b>Software Developer Intern - <a href='https://systems-plus.com' target="_blank">Systems Plus Pvt Ltd</a></b></h2>
                     </div>
                     <div className='work-text'>
                         <ul>
