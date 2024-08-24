@@ -16,7 +16,7 @@ const Projects = () => {
                         <a href="https://github.com/ubco-W2022T2-data301/project-group29" target="_blank">
                             <img src={require('../assets/images/data-analytics-1.webp')} />
                             <div className='img-caption'>
-                                <h4>Gen Z vs Gen X</h4>
+                                <h4><b>Gen Z vs Gen X</b></h4>
                             </div>
                         </a>
                         <div className='img-text'>
@@ -32,7 +32,7 @@ const Projects = () => {
                         <a href="https://github.com/patrickma6199/Pondr" target="_blank">
                             <img src={require('../assets/images/pondr-2.webp')} />
                             <div className='img-caption'>
-                                <h4>Pondr</h4>
+                                <h4><b>Pondr</b></h4>
                             </div>
                         </a>
                         <div className='img-text'>
@@ -48,7 +48,7 @@ const Projects = () => {
                         <a href="https://github.com/olivernicholass/TIXX" target="_blank">
                             <img src={require('../assets/images/tixx-3.webp')} />
                             <div className='img-caption'>
-                               <h4>Tixx</h4>
+                               <h4><b>Tixx</b></h4>
                             </div>
                         </a>
                         <div className='img-text'>
@@ -65,7 +65,7 @@ const Projects = () => {
                         <a href="https://github.com/prateek-balani/107-frogs-store" target="_blank">
                             <img src={require('../assets/images/frogs-4.webp')} />
                             <div className='img-caption'>
-                                <h4>107 Frogs</h4>
+                                <h4><b>107 Frogs</b></h4>
                             </div>
                         </a>
                         <div className='img-text'>

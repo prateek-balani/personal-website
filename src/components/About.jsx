@@ -9,9 +9,9 @@ const About = () => {
 
         <>
         
-        <div id='hide'>Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0</div>
+      
 
-            <div className='center-container'>
+           
                 <div className='About'>
                     <h1> About Me</h1>
 
@@ -47,7 +47,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+          
 
 
         </>

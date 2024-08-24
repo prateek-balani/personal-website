@@ -35,7 +35,8 @@ body {
   position: relative;
   background-color: #3014fc !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: Helvetica !important;
+
   /* background: url('./assets/images/tv-static.gif') no-repeat center center fixed;  */
   background-size: cover;
 
@@ -169,6 +170,7 @@ img {
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
+  font-family: 'Centra', sans-serif !important;
 
 }
 
@@ -182,16 +184,23 @@ img {
   height: 150vh;
 }
 
-#About h2 {
+.About h2 {
   margin-top: 0em;
   margin-bottom: 2em;
+  font-family: 'Centra', sans-serif !important;
+
+}
+
+.About h1 {
+  font-family: 'Centra', sans-serif !important;
+
 }
 
 .profile-container,
 .work-container {
   float: bottom;
   background: rgba(255, 255, 255, 0.2);
-  margin: 1em 2em 2em 2em;
+  margin: 1em 5em 2em 5em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 1em 2em;
@@ -199,8 +208,13 @@ img {
 }
 
 .outer-work-container {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 10em;
+  margin-bottom: 10em;
+
+}
+
+.outer-work-container h1 {
+  font-family: 'Centra', sans-serif !important;
 
 }
 
@@ -235,6 +249,11 @@ img {
   margin-bottom: 10rem;
 }
 
+.outer-framework-container h1 {
+  font-family: 'Centra', sans-serif !important;
+
+
+}
 
 
 
@@ -292,6 +311,10 @@ img {
   margin-bottom: 10rem;
 }
 
+.Projects h1 {
+  font-family: 'Centra', sans-serif !important;
+
+}
 
 
 
@@ -388,7 +411,7 @@ img {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: start;
-  overflow:auto;
+  overflow: auto;
   box-sizing: border-box;
 }
 
@@ -397,6 +420,9 @@ img {
   padding: 2em;
   margin-top: 10rem;
   margin-bottom: 2rem;
+}
+.contact-container {
+  font-family: 'Centra' !important;
 }
 
 .footer-container {
@@ -529,7 +555,7 @@ img {
     position: relative;
     background-color: #3014fc !important;
     color: #fff !important;
-    font-family: 'Centra', sans-serif !important;
+    font-family: Helvetica !important;
     background-size: cover;
   }
 
@@ -610,7 +636,7 @@ img {
     margin-bottom: 10em;
     padding-top: 5em;
   }
-  
+
 
   .banner-container {
     display: flex;
@@ -633,7 +659,8 @@ img {
   }
 
   .banner {
-   
+
+    font-family: 'Centra', sans-serif;
     padding: 1em;
     font-size: 1.5rem;
     text-align: center;
@@ -641,8 +668,10 @@ img {
     word-break: break-word;
     white-space: normal;
 
+
   }
-  .website-vistors{
+
+  .website-vistors {
     margin: 2em 3em 2em 3em;
   }
 
@@ -657,7 +686,7 @@ img {
   }
 
   .About {
-    margin: 0em 2em;
+    margin-top: 10em;
 
   }
 
@@ -670,7 +699,7 @@ img {
 
   .profile-container {
     background: rgba(255, 255, 255, 0.2);
-    margin: 5em 0em 75em 0em;
+    margin: 5em 1em 15em 1em;
     padding: 1em 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
@@ -680,17 +709,18 @@ img {
 
   .work-container {
     background: rgba(255, 255, 255, 0.2);
-    margin: 5em 2em 5em 2em;
-    padding: 1em 2em;
+    margin: 5em 1em 5em 1em;
+    padding: 1.5em 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
   }
 
   .outer-work-container {
-    margin-top: 0em;
+    margin-top: 10em;
     margin-bottom: 5em;
   }
-  .work-text p{
+
+  .work-text p {
     margin-bottom: 0.5em;
     font-size: 0.8em;
 
@@ -712,7 +742,8 @@ img {
     height: auto;
     object-fit: cover;
   }
-  .profile-text h4{
+
+  .profile-text h4 {
     font-size: 1.2em;
   }
 
@@ -723,7 +754,7 @@ img {
     margin: 1em;
   }
 
-  .framework-text{
+  .framework-text {
     margin: 1em 1em 1em 1em;
   }
 
@@ -813,7 +844,7 @@ img {
   }
 }
 
-#hide{
-display: none;
-                
-            }
+#hide {
+  display: none;
+
+}

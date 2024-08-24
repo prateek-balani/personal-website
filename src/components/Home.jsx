@@ -15,7 +15,7 @@ const Home = () => {
             <div className='home-container'>
        
          
-                <div className="banner">
+                <div className="banner" >
                     <Typewriter
                         options={{
                             strings: ['WELCOME', 'WELCOME TO MY WEBSITE'],
