@@ -30,12 +30,13 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 800;
   overflow-x: hidden;
   position: relative;
   background-color: #3014fc !important;
-  color: #fff !important;
+  color: #EFEFEF !important;
   font-family: Helvetica !important;
+
 
   /* background: url('./assets/images/tv-static.gif') no-repeat center center fixed;  */
   background-size: cover;
@@ -44,7 +45,7 @@ body {
 
 h1,
 h2,
-h3.h4,
+h3,h4,
 h5 {
   margin: 0;
   padding: 0;
@@ -550,18 +551,18 @@ img {
   }
 
   body {
-    font-weight: 400;
+    font-weight: 700;
     overflow-x: hidden;
     position: relative;
     background-color: #3014fc !important;
-    color: #fff !important;
+    color: #EFEFEF !important;
     font-family: Helvetica !important;
     background-size: cover;
   }
 
   h1,
   h2,
-  h3.h4,
+  h3,h4,
   h5 {
     margin: 0;
     padding: 0;
