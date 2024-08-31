@@ -125,7 +125,7 @@ img {
 
 .home-container {
   /* margin-top: 10rem; */
-  margin-bottom: 15rem;
+  margin-bottom: 23em;
   padding-top: 10rem;
 
 }
@@ -154,7 +154,7 @@ img {
 
   border-radius: 8px;
   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
-  margin: 5em 0.3em 5em 0.3em;
+  margin: 5em 0.3em 10em 0.3em;
   transition: 0.3s;
   box-sizing: border-box;
   padding: 8px;
@@ -201,7 +201,7 @@ img {
 .work-container {
   float: bottom;
   background: rgba(255, 255, 255, 0.2);
-  margin: 1em 5em 2em 5em;
+  margin: 7em 5em 2em 5em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 1em 2em;
@@ -336,6 +336,7 @@ img {
   column-gap: 0.5em;
   row-gap: 0.5em;
   padding: 0 11rem;
+  margin-top: 5em;
 
 
 
@@ -660,7 +661,7 @@ img {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
-    margin: 2em 0.5em 2em 0.5em;
+    margin: 5em 0.5em 2em 0.5em;
     padding: 1em;
   }
 
@@ -715,7 +716,7 @@ img {
 
   .work-container {
     background: rgba(255, 255, 255, 0.2);
-    margin: 5em 1em 5em 1em;
+    margin: 7em 1em 10em 1em;
     padding: 1.5em 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
@@ -779,6 +780,7 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding: 0 1em;
+    margin-top: 5em;
   }
 
   .project {
