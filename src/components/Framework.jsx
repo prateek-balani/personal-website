@@ -22,46 +22,49 @@ import tableauSvg from '../assets/images/tableau.svg';
 import xamppSvg from '../assets/images/xampp.svg';
 
 
+
 const Framework = () => {
     return (
         <>
             <div className='outer-framework-container'>
-                <h1>Frameworks</h1>
-                <div className='framework-text' >
-                    <h5>Over the course of my academic career I have
-                        come across various frameworks and languages. Some
-                        of which that I am proficient at are listed below</h5>
+               
+                    <h1>Frameworks</h1>
+                    <div className='framework-text' >
+                        <h5>Over the course of my academic career I have
+                            come across various frameworks and languages. Some
+                            of which that I am proficient at are listed below</h5>
 
-                </div>
-                <div className='framework-container'>
+                    </div>
+                    <div className='framework-container'>
 
-                    <Marquee autoFill pauseOnHover>
-                        <img src={cSvg} alt='c svg' className='marquee-img' />
-                        <img src={cssSvg} alt='css svg' className='marquee-img' />
-                        <img src={cudaSvg} alt='cuda svg' className='marquee-img' />
-                        <img src={djangoSvg} alt='django svg' className='marquee-img' />
-                        <img src={dockerSvg} alt='docker svg' className='marquee-img' />
-
-
-                    </Marquee>
-                    <Marquee autoFill direction='right' pauseOnHover>
-                        <img src={gitSvg} alt='git svg' className='marquee-img' />
-                        <img src={htmlSvg} alt='html svg' className='marquee-img' />
-                        <img src={javaSvg} alt='java svg' className='marquee-img' />
-                        <img src={jspSvg} alt='jsp svg' className='marquee-img' />
-                        <img src={mysqlSvg} alt='mysql svg' className='marquee-img' />
+                        <Marquee autoFill pauseOnHover>
+                            <img src={cSvg} alt='c svg' className='marquee-img' />
+                            <img src={cssSvg} alt='css svg' className='marquee-img' />
+                            <img src={cudaSvg} alt='cuda svg' className='marquee-img' />
+                            <img src={djangoSvg} alt='django svg' className='marquee-img' />
+                            <img src={dockerSvg} alt='docker svg' className='marquee-img' />
 
 
-                    </Marquee>
-                    <Marquee autoFill pauseOnHover>
-                        <img src={numpySvg} alt='numpy svg' className='marquee-img' />
-                        <img src={pandaSvg} alt='panda svg' className='marquee-img' />
-                        <img src={phpSvg} alt='php svg' className='marquee-img' />
-                        <img src={pythonSvg} alt='python svg' className='marquee-img' />
-                        <img src={tableauSvg} alt='tableau svg' className='marquee-img' />
-                        <img src={xamppSvg} alt='xampp svg' className='marquee-img' />
-                    </Marquee>
-                </div>
+                        </Marquee>
+                        <Marquee autoFill direction='right' pauseOnHover>
+                            <img src={gitSvg} alt='git svg' className='marquee-img' />
+                            <img src={htmlSvg} alt='html svg' className='marquee-img' />
+                            <img src={javaSvg} alt='java svg' className='marquee-img' />
+                            <img src={jspSvg} alt='jsp svg' className='marquee-img' />
+                            <img src={mysqlSvg} alt='mysql svg' className='marquee-img' />
+
+
+                        </Marquee>
+                        <Marquee autoFill pauseOnHover>
+                            <img src={numpySvg} alt='numpy svg' className='marquee-img' />
+                            <img src={pandaSvg} alt='panda svg' className='marquee-img' />
+                            <img src={phpSvg} alt='php svg' className='marquee-img' />
+                            <img src={pythonSvg} alt='python svg' className='marquee-img' />
+                            <img src={tableauSvg} alt='tableau svg' className='marquee-img' />
+                            <img src={xamppSvg} alt='xampp svg' className='marquee-img' />
+                        </Marquee>
+                    </div>
+         
 
             </div>
 

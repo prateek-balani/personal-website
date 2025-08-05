@@ -10,6 +10,7 @@ import ContactMe from './components/ContactMe.jsx';
 import Footer from './components/Footer.jsx';
 import WorkExperience from './components/WorkExperience.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '98.css';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
     <>
 
       <div className="App" style={{ position: 'relative' }}>
-        <GlitchEffect >
-          <Home />
+      
+          <GlitchEffect >
+            <Home />
           </GlitchEffect>
           <About />
 
@@ -35,7 +37,7 @@ function App() {
 
 
 
-        </div>
+      </div>
 
 
 
@@ -43,7 +45,7 @@ function App() {
 
 
 
- 
+
 
 
 
