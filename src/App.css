@@ -521,24 +521,7 @@ img {
 
 @media (max-width: 896px) {
 
-  /* Custom Fonts */
-  @font-face {
-    font-family: Centra;
-    src: url('./assets/fonts/kindly-rewind-font/KindlyRewind-BOon.ttf');
-    font-weight: 700;
-  }
-
-  @font-face {
-    font-family: Centra;
-    src: url('./assets/fonts/kindly-rewind-font/KindlyRewind-BOon.ttf');
-    font-weight: 500;
-  }
-
-  @font-face {
-    font-family: Centra;
-    src: url('./assets/fonts/kindly-rewind-font/KindlyRewind-BOon.ttf');
-    font-weight: 400;
-  }
+ 
 
   /* Default settings */
   * {
@@ -556,9 +539,6 @@ img {
     font-weight: 700;
     overflow-x: hidden;
     position: relative;
-    background-color: #3014fc !important;
-    color: #EFEFEF !important;
-    font-family: Helvetica !important;
     background-size: cover;
   }
 
