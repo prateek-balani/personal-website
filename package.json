@@ -1,5 +1,4 @@
 {
-  "homepage": "https://prateek-balani.github.io/",
   "name": "personal-website",
   "version": "0.1.0",
   "private": false,
@@ -16,18 +15,17 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.4",
-    "react-scripts": "^5.0.1",
+    "react-router-dom": "^7.8.1",
     "swiper": "^11.1.4",
+    "tailwind": "^4.0.0",
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -50,8 +48,12 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.13",
     "gh-pages": "^6.1.1",
-    "sass": "^1.77.6",
-    "tailwindcss": "^3.4.17"
+    "sass": "^1.77.6"
   }
 }
