@@ -1,15 +1,7 @@
 
 import './App.css';
 
-import Home from "./components/Home.jsx";
-import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
-import Framework from "./components/Framework.jsx"
 
-import ContactMe from './components/ContactMe.jsx';
-import Footer from './components/Footer.jsx';
-import WorkExperience from './components/WorkExperience.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '98.css';
 
 
@@ -17,29 +9,11 @@ function App() {
   return (
     <>
 
-      <div className="App" style={{ position: 'relative' }}>
       
-          
-            <Home />
-          
-          <About />
-
-          <WorkExperience />
-
-          <Framework />
-
-          <Projects />
-
-          <ContactMe />
-          <div>
-            <Footer />
-          </div>
 
 
 
-      </div>
-
-
+     
 
 
 
