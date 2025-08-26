@@ -1,7 +1,7 @@
 import WinHelp from "./windowsEffect";
 import { Link } from 'react-router-dom';
 
-// Central config for tiles so it's easy to add / reorder
+
 const options = [
     {
         title: 'Recruiters',

@@ -5,8 +5,10 @@
 import '98.css';
 import Base from './components/Base';
 import HomePage from './components/HomePage';
+import Recruiters from './components/Recruiters';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
       <>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
+          <Route path='/recruiters' element={<Recruiters/>}/>
 
         </Routes>
 
