@@ -37,7 +37,7 @@ const SelectionSection = () => {
                                     className="group relative block rounded-md focus:outline-none focus-visible:ring-5 focus-visible:ring-indigo-400/60"
                                 >
                                     <div className="overflow-hidden rounded-md border border-transparent transition-all duration-300 ease-out bg-white/70 dark:bg-white/10 backdrop-blur-sm px-6 py-10 md:py-12 shadow-sm hover:shadow-xl group-hover:-translate-y-1 group-hover:border-indigo-400 group-active:translate-y-0">
-                                        <h2 className="text-2xl md:text-3xl font-bold font-kindly tracking-wide mb-3 text-indigo-900 group-hover:text-indigo-700 transition-colors">
+                                        <h2  >
                                             {opt.label}
                                             <span
                                                 className="ml-2 inline-block translate-x-0 opacity-0 group-hover:translate-x-1 group-hover:opacity-100 transition-all duration-300"
