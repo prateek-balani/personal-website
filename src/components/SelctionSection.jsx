@@ -34,6 +34,7 @@ const SelectionSection = () => {
                             
                                 <Link
                                     to={opt.to}
+                                    tabIndex={-1}
                                     className="group relative block rounded-md focus:outline-none focus-visible:ring-5 focus-visible:ring-indigo-400/60"
                                 >
                                     <div className="overflow-hidden rounded-md border border-transparent transition-all duration-300 ease-out bg-white/70 dark:bg-white/10 backdrop-blur-sm px-6 py-10 md:py-12 shadow-sm hover:shadow-xl group-hover:-translate-y-1 group-hover:border-indigo-400 group-active:translate-y-0">
