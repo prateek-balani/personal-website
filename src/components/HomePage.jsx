@@ -17,14 +17,24 @@ const HomePage = () => {
 
                                         <Typewriter
                                             options={{
-                                                strings: ['WELCOME', 'WELCOME TO MY WEBSITE'],
+                                                strings: [
+                                                    'WELCOME',
+                                                    'TAKE A LOOK AROUND',
+                                                    'THIS IS A PERSONAL SITE',
+                                                    'NOT A TEMPLATE',
+                                                    'DESIGNED, NOT POLISHED'
+                                                ],
                                                 autoStart: true,
                                                 loop: true,
+                                                delay: 55,
+                                                deleteSpeed: 35,
+                                                pauseFor: 1200,
+                                                cursor: '_',
                                             }}
-
-
                                         />
-                                    </div>
+                                        </div>
+
+                                       
                                 </WinHelp>
                             </WinHelp>
                         </WinHelp>

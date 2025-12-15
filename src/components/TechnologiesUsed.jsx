@@ -26,17 +26,18 @@ const TechnologiesUsed = () => {
     const imgSet3 = [{ img: numpySvg }, { img: pandaSvg}, { img: phpSvg }, { img: tableauSvg }, { img: xamppSvg }];
     return (
 
-        <div className='flex flex-col justify-center text-center min-h-screen px-4 py-10 sm:px-8 sm:py-12 md:px-12 md:py-14 overflow-hidden'>
+        
+            <WinHelp>
+                <div className='flex flex-col p-6 space-y-2 overflow-hidden'>
 
-            <h1 className="text-5xl md:text-3xl font-bold font-kindly tracking-wide mb-3 text-indigo-900 group-hover:text-indigo-700 transition-colors">Frameworks</h1>
-            <div className='text-sm md:text-base tracking-wide mb-3 text-indigo-900 group-hover:text-indigo-700 transition-colors' >
+            <h1 className="text-2xl  font-kindly tracking-wide mb-3 text-left text-[#0c148c] ">Frameworks</h1>
+            <div className='text-base md:text-base tracking-wide mb-3 text-left' >
                 <h5>Over the course of my academic career I have
                     come across various frameworks and languages. Some
                     of which that I am proficient at are listed below</h5>
 
             </div>
-            <WinHelp>
-                <div className='space-y-5'>
+                <div className='space-y-5 p-10'>
                     
 
                         <Marquee autoFill pauseOnHover>
@@ -58,9 +59,10 @@ const TechnologiesUsed = () => {
                                )) }
                     </Marquee>
                 </div>
+                </div>
             </WinHelp>
 
-        </div>
+        
 
     );
 
