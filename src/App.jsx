@@ -17,7 +17,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     // Use basename so BrowserRouter trims the GitHub Pages repo subpath (/personal-website/) basename={import.meta.env.BASE_URL}
-    <Router  basename="/personal-website" >
+    <Router >
       <Navbar />
 
       <>
