@@ -9,6 +9,8 @@ import Recruiters from './components/Recruiters';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 import Navbar from './components/Navbar';
+import Developers from './components/Developers';
+import Contact from './components/Contact';
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/recruiters' element={<Recruiters/>}/>
+          <Route path='/developers' element={<Developers/>}/>
+          <Route path='/contact' element={<Contact/>}/>
 
         </Routes>
 

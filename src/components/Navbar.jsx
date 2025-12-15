@@ -7,8 +7,8 @@ const Navbar = () => {
             <menu role="tablist" className='flex gap-8 p-0'>
                 <li role="tab"><Link className="button" to="/">Home</Link></li>
                 <li role="tab"><Link className="button" to="/recruiters">Recruiters</Link></li>
-                <li role="tab"><Link className="button" to="">Developers</Link></li>
-                <li role="tab"><Link className="button" to="">Contact me</Link></li>
+                <li role="tab"><Link className="button" to="/developers">Developers</Link></li>
+                <li role="tab"><Link className="button" to="/contact">Contact me</Link></li>
             </menu>
         </nav>
     );

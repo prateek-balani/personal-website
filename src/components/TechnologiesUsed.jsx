@@ -27,7 +27,7 @@ const TechnologiesUsed = () => {
     return (
 
         
-            <WinHelp>
+            <WinHelp title="technologies.txt">
                 <div className='flex flex-col p-6 space-y-2 overflow-hidden'>
 
             <h1 className="text-2xl  font-kindly tracking-wide mb-3 text-left text-[#0c148c] ">Frameworks</h1>
