@@ -34,7 +34,7 @@ const Recruiters = () => {
           <div className="p-6 space-y-4 text-left">
             <div>
               <h2 className="text-lg font-semibold text-[#0c148c]">
-                Software Developer - Internal Tools & Automation
+                IT Analyst - Internal Tools & Automation
               </h2>
               <p className="text-base text-gray-600">
                 Open Door Group · Sep 2025 - Present · Vancouver, BC · Hybrid
